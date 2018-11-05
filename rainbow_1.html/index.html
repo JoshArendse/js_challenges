@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rainbow 1</title>
+    
+    <style>
+
+        #red{
+            width:100%;
+            height:100px;
+        }
+
+        #orange{
+            width:100%;
+            height:100px;
+        }
+
+        #yellow{
+            width:100%;
+            height:100px;
+        }
+
+        #green{
+            width:100%;
+            height:100px;
+        }
+
+        #blue{
+            width:100%;
+            height:100px;
+        }
+
+        #indigo{
+            width:100%;
+            height:100px;
+        }
+
+        #violet{
+            width:100%;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="red"><button type="button" onclick="myFunction()">red</button></div>
+    <div id="orange"><button type="button" onclick="myFunctionOrange()">orange</button></div>
+    <div id="yellow"><button type="button" onclick="myFunctionYellow()">yellow</button></div>
+    <div id="green"><button type="button" onclick="myFunctionGreen()">green</button></div>
+    <div id="blue"><button type="button" onclick="myFunctionBlue()">blue</button></div>
+    <div id="indigo"><button type="button" onclick="myFunctionIndigo()">indigo</button></div>
+    <div id="violet"><button type="button" onclick="myFunctionViolet()">violet</button></div>
+
+    <div id="Rainbow">
+        <button type="button" onclick="myFunctionRainbow()">Rainbow</button>
+    </div>
+
+        
+
+    <script>
+
+        
+        function myFunction() {
+                document.getElementById('red').style.backgroundColor= 'red';
+        }
+
+        function myFunctionOrange() {
+                document.getElementById('orange').style.backgroundColor= "orange";
+            }
+
+        function myFunctionYellow() {
+                document.getElementById('yellow').style.backgroundColor= "yellow";
+            }
+
+        function myFunctionGreen() {
+                document.getElementById('green').style.backgroundColor= "green";
+            }
+
+        function myFunctionBlue() {
+                document.getElementById('blue').style.backgroundColor= "blue";
+            }
+
+        function myFunctionIndigo() {
+                document.getElementById('indigo').style.backgroundColor= "indigo";
+            }
+
+        function myFunctionViolet() {
+                document.getElementById('violet').style.backgroundColor= "violet";
+            }
+
+    function myFunctionRainbow(){
+
+        myFunction(); myFunctionOrange(); myFunctionYellow(); myFunctionGreen(); myFunctionBlue(); myFunctionIndigo(); myFunctionViolet();
+
+    } 
+    </script>
+</body>
+</html>
